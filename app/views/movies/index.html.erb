@@ -1,0 +1,25 @@
+<div>
+
+
+<h1>Voici la liste des films</h1>
+
+<table >
+<tr>
+  <th>Movie</th>
+  <th>Director</th>
+  <th>Realease Year</th>
+</tr>
+</table>
+<% @movies.each do |movie| %>
+
+<table >
+
+  <tr>
+    <td><%= movie.title %></td>
+    <td><%= movie.director %></td>
+    <td><%= movie.release_year %></td>
+  </tr>
+
+</table>
+<% end %>
+</div>
