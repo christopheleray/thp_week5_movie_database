@@ -1,26 +1,27 @@
-# README
+# Project Movie database - Rennes - THP
 
+Check out the app on Heroku here: 
 [Heroku App](https://git.heroku.com/movie-database-rennes.git)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Ruby version: 2.5.1*
 
-Things you may want to cover:
+To test the app, downlaod the [Github repository](https://github.com/christopheleray/thp_week5_movie_database.git)
 
-* Ruby version
+` $ bundle install --without production `
 
-* System dependencies
+` $ rails db:migrate `
 
-* Configuration
+` $ rails db:seed` 
 
-* Database creation
+## Database structure: 
 
-* Database initialization
+Movie table
+* movie
+* director_id
+* release_year
 
-* How to run the test suite
+Director table:
+* first_name
+* last_name
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+We use the CDN bootstrat and customize the homepage 
